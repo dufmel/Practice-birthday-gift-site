@@ -1,0 +1,107 @@
+@font-face {
+    font-family: autumn;
+    src: url(autumn-in-november.regular.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#3ebab1, #f86474);
+    color: #ffffff;
+}
+
+#bday-title {
+    font-family:"autumn", cursive
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#lillian-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #f86474;
+    margin-bottom: 20px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #f86474;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/giftface.png");
+    background-size: cover;
+}
+
+#gift-img-balloons:hover {
+    background-image: url("https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif");
+}
+
+#gift-img-animal:hover {
+    background-image: url("https://media.giphy.com/media/l0COJ0jTGnPHh8Ua4/giphy.gif");
+}
+
+#gift-img-party:hover {
+    background-image: url("https://media.giphy.com/media/UDUjlUnZyzVAY/giphy.gif");
+}
+
+#gift-img-love:hover {
+    background-image: url("https://media.giphy.com/media/3oz8xGRXaIHGqts3hC/giphy.gif");
+}
+
+#gift-img-mom:hover {
+    background-image: url("images/mom-and-lillian.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
